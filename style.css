@@ -296,4 +296,11 @@ nav ul li a:hover::after{
     border-radius: 100px;
 }
 
-
+@media only screen and (max-width:600px){
+    #header{
+        
+        background-image: url("Image/BG.png");
+        background-size: 100% 100%;
+    
+    }
+}
