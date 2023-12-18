@@ -1,3 +1,4 @@
+
 body{
     background-color: black;
     max-width: 1920px;
@@ -6,7 +7,7 @@ body{
 
 #header{
     height: 100vh;
-    background-image: url("Image/BG.jpg");
+    background-image: url("Image/BG.png");
     background-size: 100% 100%;
 
 }
@@ -296,11 +297,71 @@ nav ul li a:hover::after{
     border-radius: 100px;
 }
 
-@media only screen and (max-width:720px){
+
+@media Only screen and (max-width:600px){
     #header{
-        height: 40vh;
-        background-image: url("Image/BG.png");
-        background-size: 100% 100%;
-    
+        
+        height: 200vh;
+        background-image: url("Image/BGP.jpg");
+        background-position: fixed;
     }
+    .header-text{
+        margin-top: 100%;
+        font-size: 3vh;
+    }
+    .header-text h1{
+        font-size: 5vh;
+    }
+    
+    nav .fas {
+        display: block;
+        background-color: black;
+        
+    }
+    .logo {
+        margin-top: 20%;
+        position: fixed;
+        background-color: black;
+    }
+    
+    nav ul {
+        font-size: 20vh;
+        background-color: black;
+        position : fixed;
+        margin-top: -50px;
+        top: 0;
+        right: 0;
+    }
+    .sub-title{
+        font-size: 40px;
+    }
+    .col1,.col2{
+        flex-basis: 100vh;
+    }
+    .col1{
+        margin-bottom: 30px;
+        margin-right: 170px;
+    }
+    .col2{
+       font-size: 14px ; 
+    }
+    .sub-title{
+        font-size: 40px;
+        margin-top: 20px;
+    }
+    .greeting{
+        margin-right: 70px;
+        text-align: justify;
+    }
+    .Research-Interest{
+        display: block;
+        
+    }
+    .ml{
+        margin-bottom: 40px;
+    }
+    .oto{
+        margin-bottom: 40px;
+    }
+    
 }
